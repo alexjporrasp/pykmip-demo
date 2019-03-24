@@ -50,7 +50,7 @@ cd client/
 python encrypt.py -s conf/pykmip.conf -c client files/helloworld.txt
 ```
 
-*`conf/pykmip.conf` is the path to the client configuration file.
+* `conf/pykmip.conf` is the path to the client configuration file.
 * `client` is the chosen section of the configuration file.
 
 This demo provides a sample file located in the files directory to test the encryption and decryption.
