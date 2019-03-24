@@ -55,7 +55,7 @@ python encrypt.py -s conf/pykmip.conf -c client files/helloworld.txt
 
 This demo provides a sample file located in the files directory to test the encryption and decryption.
 
-The resulted encrypted file has its key uuid attached and is saved with the following name `helloworld_enc`.
+The resulted encrypted file has its key uuid attached and is saved with the following directory `files/helloworld_enc`.
 
 
 **Decrypt a previously encrypted file**
@@ -67,7 +67,7 @@ cd client/
 python decrypt.py -c client -s conf/pykmip.conf files/helloworld_enc 
 ```
 
-The decrypted file will be called `helloworld_dec` you may check that it is the same as `helloworld.txt`
+The decrypted file will be saved at `files/helloworld_dec` you may check that it is the same as `helloworld.txt`
 
 **References**
 
