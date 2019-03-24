@@ -71,5 +71,6 @@ The decrypted file will be called `helloworld_dec` you may check that it is the 
 
 **References**
 
-(1) For more information visit the PyKMIP documentation : [Link](https://github.com/OpenKMIP/PyKMIP)
-(2) [Link](https://github.com/OpenKMIP/PyKMIP/blob/master/bin/create_certificates.py)
+(1) For more information visit the PyKMIP documentation : [PyKMIP Repo](https://github.com/OpenKMIP/PyKMIP)
+
+(2) [Create Certificates](https://github.com/OpenKMIP/PyKMIP/blob/master/bin/create_certificates.py)
